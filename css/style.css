@@ -9,5 +9,35 @@
 
 .jumbotron-section {
     object-fit: contain;
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-image: url(../img/jumbo-bg.png);
+    width: 100%;
+    min-height: 650px;
+    background-position: top;
 }
+
+/* ------------------------------ */
+/* ------------------------------ */
+/* ------------------------------ */
+/* customization for cart section */
+
+.custom-card-image img {
+    border-radius: 1rem;
+
+}
+
+.custom-card-image {
+    border: 0!important;
+    border-radius: 1rem!important;
+}
+
+.custom-button-card {
+    border-radius: 1rem!important;
+    padding: 0.1rem!important;
+    
+}
+
+/* end of customization :-) */
+/* ------------------------------ */
+/* ------------------------------ */
+/* ------------------------------ */
+
