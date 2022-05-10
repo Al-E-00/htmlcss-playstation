@@ -1,0 +1,13 @@
+@import url("variables.css");
+@import url("buttons.css");
+@import url("cards.css");
+
+.section:not(.full-height) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.jumbotron-section {
+    object-fit: contain;
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+}
