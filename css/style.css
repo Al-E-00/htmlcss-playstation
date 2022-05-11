@@ -15,6 +15,7 @@
     background-position: top;
 }
 
+
 /* ------------------------------ */
 /* ------------------------------ */
 /* ------------------------------ */
@@ -40,4 +41,23 @@
 /* ------------------------------ */
 /* ------------------------------ */
 /* ------------------------------ */
+
+
+
+/* ------------------------------ */
+/* ------------------------------ */
+/* sliders border-bottom on hover */
+/* error: the static border (first one) slightly goes up when 
+hover on the others elements it's active */
+
+.sliders-section-border:hover {
+    border-bottom: 2px solid rgb(69, 150, 216);
+}
+
+.sliders-section-border-ac {
+    border-bottom: 2px solid rgb(69, 150, 216);
+}
+/* ------------------------------ */
+
+
 
