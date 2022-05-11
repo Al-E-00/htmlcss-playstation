@@ -38,9 +38,6 @@
 }
 
 /* end of customization :-) */
-/* ------------------------------ */
-/* ------------------------------ */
-/* ------------------------------ */
 
 
 
@@ -50,12 +47,18 @@
 /* error: the static border (first one) slightly goes up when 
 hover on the others elements it's active */
 
-.sliders-section-border:hover {
-    border-bottom: 2px solid rgb(69, 150, 216);
+.sliders-section-bd-img-ac {
+    border-bottom:2px solid rgb(69, 150, 216);
 }
 
-.sliders-section-border-ac {
+.sliders-section-bd-img:hover {
     border-bottom: 2px solid rgb(69, 150, 216);
+    opacity: 1;
+}
+
+.sliders-section-bd-img {
+    border-bottom: 2px solid rgba(69, 150, 216, 0);
+    opacity: .8;
 }
 /* ------------------------------ */
 
