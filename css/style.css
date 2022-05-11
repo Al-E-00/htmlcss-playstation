@@ -41,11 +41,10 @@
 
 
 
+
 /* ------------------------------ */
 /* ------------------------------ */
-/* sliders border-bottom on hover */
-/* error: the static border (first one) slightly goes up when 
-hover on the others elements it's active */
+/* other profuct border-bottom + opacity on hover */
 
 .sliders-section-bd-img-ac {
     border-bottom:2px solid rgb(69, 150, 216);
@@ -64,3 +63,19 @@ hover on the others elements it's active */
 
 
 
+/* ------------ It takes two section ------------------ */
+
+.background-ITT-sec {
+    position: relative;
+}
+
+.background-ITT-sec > img {
+    position: absolute;
+    width: 100%;
+}
+
+.custom-container-position-relative {
+    width: 100%;
+    height: 100%;
+    
+}
