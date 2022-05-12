@@ -23,11 +23,10 @@
 
 /* end of customization :-) */
 
-.custom-button-card {
-    
+.cst-card-hover .custom-button-card {
+    transition: transform .30s ease-in-out;
 }
 
 .cst-card-hover:hover .custom-button-card {
     transform: translateY(-10px);
-    transition: transform .30s ease-in-out;
 }
