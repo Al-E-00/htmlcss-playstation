@@ -23,31 +23,26 @@ header {
     background-position: top;
 }
 
-
-/* ------------------------------ */
-/* ------------------------------ */
-/* ------------------------------ */
-/* customization for cart section */
-
-.custom-card-image img {
-    border-radius: 1rem;
-
-}
-
-.custom-card-image {
+/* nav-bar start */
+.dropdown-toggle::after {
     border: 0!important;
-    border-radius: 1rem!important;
 }
 
-.custom-button-card {
-    border-radius: 1rem!important;
-    padding: 0.1rem!important;
-    
+.ct-opacity-rules {
+    opacity: .4;
 }
 
-/* end of customization :-) */
+.ct-opacity-rules:hover {
+    opacity: .5;
+}
 
+.ct-opacity-rules:focus  {
+    opacity: .7;
+}
 
+.ct-opacity-rules:focus:hover {
+    opacity: 1;
+}
 
 
 /* ------------------------------ */
@@ -73,24 +68,11 @@ header {
 
 /* ------------ It takes two section ------------------ */
 
-
-
-
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-/* !!!!!!!!!!!!! Problem: -> image fit not correct !!!!!!!!!!!!!!!!!*/
 .background-ITT-sec {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: top;
     width: 100%;
 }
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-
-
-
-
 
 
 /* Nuove uscite section */
@@ -104,3 +86,9 @@ header {
 .custom-bg-blue {
     background-color: rgb(22, 29, 58) ;
 }
+
+
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+/* ----------------------HOVER SECTION--------------------- */
+

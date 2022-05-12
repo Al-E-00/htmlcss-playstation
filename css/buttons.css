@@ -6,3 +6,72 @@
     background-color: rgb(217, 218, 220)!important;
     border-color: transparent!important;
 }
+
+.btn-primary {
+    background-color: rgb(8, 70, 154)!important;
+    border-color: rgb(8, 70, 154)!important;
+}
+
+
+/* HOVER SECTION */
+
+/* button border */
+
+.btn {
+    position: relative;
+}
+
+.btn:after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+    border-radius: 2rem;
+    transition: opacity .25s ease-in-out;
+}
+
+/* btn-dark hover effect */
+
+.btn-dark:after {
+    border: 2px solid #212529;
+    opacity: 0;
+}
+
+.btn-dark:hover.btn-dark:after {
+    opacity: 1;
+}
+
+/* btn-danger hover effect */
+
+.btn-danger:after {
+    border: 2px solid #bb2d3b;
+    opacity: 0;
+}
+
+.btn-danger:hover.btn-danger:after {
+    opacity: 1;
+}
+
+/* btn-primary hover effect */
+
+.btn-primary:after {
+    border: 2px solid rgb(8, 70, 154);
+    opacity: 0;
+}
+
+.btn-primary:hover.btn-primary:after {
+    opacity: 1;
+}
+
+/* btn-light hover effect */
+
+.btn-light:after {
+    border: 2px solid rgb(217, 218, 220);
+    opacity: 0;
+}
+
+.btn-light:hover.btn-light:after {
+    opacity: 1;
+}
