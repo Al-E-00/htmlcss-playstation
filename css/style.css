@@ -92,3 +92,35 @@ header {
 /* -------------------------------------------------------- */
 /* ----------------------HOVER SECTION--------------------- */
 
+
+/* nuove uscite section hover effect */
+.img-card-hover {
+    cursor: pointer;
+}
+
+.img-card-hover img {
+    transition: transform .35s ease-in-out, opacity .25s ease-in-out, box-shadow .20s ease-in-out;
+}
+
+.img-card-hover:hover img {
+    transform: scale(1.1);
+    opacity: .8;
+}
+
+.img-card-hover:focus img {
+    box-shadow: 1px 1px 1rem rgba(197, 255, 179, 0.577), -.3rem .2rem .4em rgba(255, 254, 222, 0.536);
+    opacity: 1;
+}
+
+.img-card-hover:focus p {
+    color: grey!important;
+}
+
+.img-card-hover p {
+    transition: transform .30s ease-in-out, color .30s ease-in-out;
+}
+
+.img-card-hover:hover p {
+    transform: translateX(20px) scale(1.2);
+    color: rgba(255, 255, 255, 0.835);
+}
